@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.Rer_Menu{
+    background-color:black ;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 800px;
+    align-items: center;
+}
+.LabelReg{
+    color: white;
+    font-size: 50px ;
+    padding:50px 0;
+}
+.info_reg{
+    display: flex;
+    flex-direction: column;
+}
+.info_reg , .reg {
+    background-color: black;
+    border-color: mediumpurple;
+    border-radius: 10px ;
+    color: white;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 5px;
+}
+.button_reg{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: center;
+
+}
+.button_reg button{
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: mediumpurple;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.button_reg button:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
+.Log_menu{
+    background-color:whitesmoke ;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    align-items: center;
+}
+.LabelLog{
+    color: blue;
+    font-size: 50px;
+    padding: 50px 0;
+}
+.loginUser{
+    display: flex;
+    flex-direction: column;
+}
+.log{
+    background-color:whitesmoke ;
+    border-color: blue;
+    border-radius: 20px ;
+    color: gray;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 5px;
+}
+.button_log{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: center;
+}
+.button_log button{
+    width: 150px;
+    margin-top: 35px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.Reg_Btn_Log:hover{
+    background-color:midnightblue;
+    transition: 0.5s;
+}
