@@ -11,20 +11,21 @@ window.onload =  () => {
     let hideReg = document.querySelector('.info_reg')
     let hideBtnReg = document.querySelector('.Reg_Btn')
     function chekInfo (){
-
-        for (i = 0 ; i < regInfo.length; i++ ) {
+        let Valid = true
+        for (let i = 0 ; i < regInfo.length; i++ ) {
             let element = regInfo[i]
             if (element.value.length == 0) {
                 alert(`Вы не ввели ${element.className}`)
+                Valid = false
             }
         }
 
             if (password.value != confirmPsw.value) {
                 alert("Пароли не совпадают")
-
+                Valid = false
             }
 
-            if (!!regInfo && !!password.value && !!confirmPsw.value) {
+            if (!!IsValid) {
                 alert("Регистрация прошла успешно")
                 alert(`Пользователь с именнем ${name.value} зарегестрирован (формально) `)
                 hideReg.style.display = "none"
